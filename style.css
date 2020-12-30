@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #2C3539;
+  background-image: url('https://static.wixstatic.com/media/7d05b2_4a4c6316e10b4ce29aed9f547c3ae446f000.jpg/v1/fill/w_1180,h_676,al_c,q_85,usm_0.33_1.00_0.00/7d05b2_4a4c6316e10b4ce29aed9f547c3ae446f000.jpg');
   background-attachment: fixed;  /*I also googled how to do this for the same reason.*/
 }
 
