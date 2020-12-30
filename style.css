@@ -5,7 +5,7 @@ html {
 
 body {
   /*I also googled how to do this for the same reason.*/
-  background-image: url(/elements/background.jpg);
+  background-image: url(elements/background.jpg);
   background-attachment: fixed;
 }
 
@@ -62,7 +62,7 @@ h3 {
 .wrapper {
   /*To contain individual elements*/
   background-image: 
-  url(/elements/aquapoly.jpg);
+  url(elements/aquapoly.jpg);
   margin: 50px;
   padding: 25px;
   opacity: 0.75;
