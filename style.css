@@ -5,7 +5,8 @@ html {
 
 body {
   /*I also googled how to do this for the same reason.*/
-  background-image: url("https://github.com/hayleyebreen/portfolio/elements/charpoly.jpg");
+  background-image: url('https://github.com/hayleyebreen/portfolio/elements/charpoly.jpg');
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
