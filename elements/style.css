@@ -1,0 +1,116 @@
+html { 
+  scroll-behavior: smooth; /* I googled how to do this so it would follow the page down when links in nav are clicked*/
+  width: 100%;
+  overflow-x: hidden; /*Because I use negative margins below*/
+}
+
+body {
+  background-image: url(/elements/background.jpg);
+  background-attachment: fixed; /*elements scroll past background, not with*/
+}
+
+header {
+  background-color: rgb(0, 0, 0, 0.45); /*Researched opacity*/
+  color: rgb(34, 186, 206, 0.75);
+  margin: 50px -10px 20px -10px; /*used negative margins for right and left to make sure the bar extended to the edge*/
+  font-family: 'Nova Flat', 'Lucida Sans', serif;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /*To make logo and headers display side-by-side if there is room*/
+}
+
+img {
+  max-width: 100%;
+    height: auto; /*To auto-resize images across different screen sizes*/
+}
+
+h1, h2 {
+  overflow-wrap: normal; /*Researched this because I used overflow-x in html. Header text was going off the page*/
+}
+
+h1 {
+  padding: 20px 10px 0px 10px;
+  margin: 0px 10px 0px 0px;
+}
+
+h2 {
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+}
+
+header nav {
+  text-align: right;
+  padding: 0px 66px 10px 0px;
+  font-size: 18px;
+}
+
+/*Link styling. I chose not to change :visited.*/
+a:link    { color: rgb(255, 255, 255);}
+a:visited { color: rgb(255, 255, 255);}
+a:hover   { color: rgb(73, 124, 126);}
+a:active  { color: rgb(20, 110, 228);}
+
+hr {
+  height: 2px;
+  background-color: rgba(0, 255, 255, 0.3);
+  color: aqua;
+  opacity: 0.4;
+  margin: 100px;
+}
+
+main {
+  font-family:'Allerta Stencil', 'Arial Narrow', sans-serif;
+  font-size: 28px;
+  color: rgb(237, 247, 248);
+  overflow-wrap: normal;
+}
+
+h3 {
+  font-size: 48px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.wrapper {
+  /*To contain individual elements*/
+  background-image: 
+  url(/elements/aquapoly.jpg);
+  margin: 50px;
+  padding: 25px;
+  opacity: 0.65;
+  border-radius: 5px;
+}
+
+.wrapper:hover {
+  /*To engage the visitor in a subtle way*/
+  opacity: 0.90;
+}
+
+
+main img:hover {
+  /*I just wanted to add this for visual interest, only to the images in the main article*/
+  opacity: .5;
+}
+
+.chia {
+  max-width: 25%;
+  max-height: auto;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  /*I wanted to echo the header to tie it together so I used the same font, background aesthetic, and colors*/
+  background-color: rgb(0, 0, 0, 0.85);
+  margin: -22px;
+  font-family: 'Nova Flat', 'Lucida Sans', serif;
+  font-size: 18px;
+  text-align: right;
+  color: rgba(0, 255, 255, 0.6);
+  padding: 0px 36px 10px 0px;
+}
