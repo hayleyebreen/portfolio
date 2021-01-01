@@ -64,13 +64,13 @@ hr {
 
 main {
   font-family:'Allerta Stencil', 'Arial Narrow', sans-serif;
-  font-size: 28px;
+  font-size: 2vw;
   color: rgb(237, 247, 248);
   overflow-wrap: normal;
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 3vw;
   text-align: center;
   padding: 15px;
   margin: 10px;
