@@ -91,6 +91,10 @@ h3 {
   opacity: 0.90;
 }
 
+ul {
+  margin: 15px;
+}
+
 main img {
   display: block;
   margin: auto;
