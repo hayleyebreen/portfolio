@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-image: url(/elements/background.jpg);
+  background-image: url(charpoly.jpg);
   background-attachment: fixed; /*elements scroll past background, not with*/
 }
 
@@ -79,7 +79,7 @@ h3 {
 .wrapper {
   /*To contain individual elements*/
   background-image: 
-  url(/elements/aquapoly.jpg);
+  url(aquapoly.jpg);
   margin: 50px;
   padding: 25px;
   opacity: 0.65;
